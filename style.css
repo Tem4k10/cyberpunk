@@ -1,0 +1,109 @@
+
+
+.header_wrapper {
+    display: flex;
+    width: 1280px;
+    height: 74px;
+}
+
+.hero-logo {
+    width: 380px;
+    height: 74px;
+    margin-left: 320px;
+}
+
+.wrapper_logo {
+    display: flex;
+    margin-left: 300px;
+    align-items: center;
+}
+.hero-section{
+background-image: url(./img/background.png);
+background-repeat: no-repeat;
+ height: 850px;
+
+}
+
+ .div-img{
+    display: flex;
+ } 
+.section2{
+width: 60%;
+
+}
+.im-text{
+margin-top: 100px;
+}
+
+.cube-text {
+    position: absolute;
+    z-index: 10;
+    top: 391px;
+    left: 629px;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.My-photo{
+width: 70px;
+height: 70px;
+border-radius: 50%;
+border: 3px yellow;
+}
+.display{
+margin-top: 50px;
+
+}
+.img-text{
+margin-top: 90px;
+
+}
+.cube-button {
+    width: 272px;
+    height: 78px;
+    font-size: 33;
+    background-color: black;
+    color: goldenrod;
+    position: absolute;
+    top: 773px;
+    left: 692px;
+    z-index: 10;
+    top: 517px;
+}
+
+.img-logo {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+.section2{
+width: 500px;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+a:hover {
+    color: yellow;
+
+}
+
+a:visited {
+    color: yellow;
+
+}
+
+a:active {
+    color: yellow;
+
+}
+
+.rectangle {
+    Width: 450px;
+    position: absolute;
+    top: 350px;
+    left: 650px;
+    z-index: 0;
+}
