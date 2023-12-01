@@ -1,15 +1,21 @@
+body{
+    margin: 0 auto;
+    font-family: 'Outfit', sans-serif;
+}
 
-
-.header_wrapper {
+.header{
+    background-color: rgb(83, 146, 218);
     display: flex;
-    width: 1280px;
+    justify-content: space-between;
+    align-items: center;
     height: 74px;
+    padding: 0 20px ;
+
 }
 
 .hero-logo {
     width: 380px;
     height: 74px;
-    margin-left: 320px;
 }
 
 .wrapper_logo {
@@ -18,43 +24,32 @@
     align-items: center;
 }
 .hero-section{
-background-image: url(./img/background.png);
+background-image: url(./new-img/background.png);
 background-repeat: no-repeat;
- height: 850px;
+ height: 640px;
 
 }
-
- .div-img{
+.section-2{
+    text-align: center;
+}
+.section-3{
     display: flex;
  } 
-.section2{
-width: 60%;
-
-}
-.im-text{
-margin-top: 100px;
-}
 
 .cube-text {
     position: absolute;
     z-index: 10;
-    top: 391px;
-    left: 629px;
+    top: 465px;
+    right: 166px;
     font-size: 35px;
+    font-weight: 900;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
-.My-photo{
-width: 70px;
-height: 70px;
-border-radius: 50%;
-border: 3px yellow;
-}
-.display{
-margin-top: 50px;
 
-}
-.img-text{
-margin-top: 90px;
+.section2_text{
+margin-top: 40px;
+margin-bottom: 10px;
 
 }
 .cube-button {
@@ -64,10 +59,12 @@ margin-top: 90px;
     background-color: black;
     color: goldenrod;
     position: absolute;
-    top: 773px;
-    left: 692px;
+    top: 610px;
+    right: 190px;
     z-index: 10;
-    top: 517px;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
 }
 
 .img-logo {
@@ -78,6 +75,8 @@ margin-top: 90px;
 
 .section2{
 width: 500px;
+    padding: 0 20px ;
+
 }
 a {
     text-decoration: none;
@@ -103,7 +102,11 @@ a:active {
 .rectangle {
     Width: 450px;
     position: absolute;
-    top: 350px;
-    left: 650px;
+    top: 448px;
+    right: 45px;
     z-index: 0;
 }
+
+.section-3{
+    margin-top: 50px;
+    }
