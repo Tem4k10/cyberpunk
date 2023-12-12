@@ -106,7 +106,9 @@ a:active {
     right: 45px;
     z-index: 0;
 }
-
+footer{
+    align-items:center;                
+}
 .section-3{
     margin-top: 50px;
     }
