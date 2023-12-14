@@ -2,14 +2,18 @@ body{
     margin: 0 auto;
     font-family: 'Outfit', sans-serif;
 }
+ul{
+list-style: none;
+display: flex;
 
+
+
+
+}
 .header{
     background-color: rgb(83, 146, 218);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 74px;
-    padding: 0 20px ;
+   display: flex;
+   justify-content: space-between;
 
 }
 
@@ -107,8 +111,14 @@ a:active {
     z-index: 0;
 }
 footer{
-    align-items:center;                
+    
+   text-align: center;    
+    background-color: #840000;         
+    color: blueviolet;
+    padding-top: 5px;  
+    padding-bottom: 5px;
 }
 .section-3{
     margin-top: 50px;
+    margin-bottom: 25px;
     }
